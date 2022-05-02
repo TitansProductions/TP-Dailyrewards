@@ -9,6 +9,8 @@ Features:
 
 - Tooltips / Hover Text while hovering to a button, displaying item title and description (https://i.imgur.com/bQ65AEQ.png)
 
+- Max days for getting daily rewards are 28 (4 Weeks).
+
 - Some basic images are included (Suggested images size is: 128 x 91 | 128 x 128), otherwise displaying images will not be correct.
 
 Commands:
