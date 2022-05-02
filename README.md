@@ -15,7 +15,7 @@ Features:
 Commands:
 
 - /dailyrewards - Allows you to open dailyrewards.
-- 
+
 Make sure before starting the script to change the items in the config
 
 Resmon Results: https://i.imgur.com/Un0mWk5.png
