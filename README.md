@@ -3,7 +3,7 @@ This is a unique daily rewards script for your players with many features and op
 
 Features:
 
-- Supports +2544, +1920, +1680, +1600 and +1440(not the best) resolutions.
+- Supports +2544, +1920, +1680, +1600 and +1440 resolutions, 1440 is not the best since 1500 is the Daily Crates Window resolution.
 
 - Supports Multicharacters.
 
