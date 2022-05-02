@@ -7,6 +7,7 @@ Features:
 
 - Daily rewards, such as items, weapons, money, black_money, bank including custom packages, That means, if you want to give multiple items, money or anything at the same time in a daily pack reward, you can create a pack in Config.RewardPacks called for example “clips” and add this pack as a reward type in order to give multiple items (in this pack i would give all magazine types).
 
+- Tooltips / Hover Text while hovering to a button, displaying item title and description.
 
 - Some basic images are included (Suggested images size is: 128 x 91 | 128 x 128), otherwise displaying images will not be correct.
 
