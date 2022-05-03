@@ -2,6 +2,9 @@ Config              = {}
 
 Config.Locale       = "en"
 
+-- Set it to "none" if you don't want to use a key to open the daily rewards.
+Config.UseKeyToOpen = "none"
+
 -- Checks if player received reward / not and day changed to update its data.
 -- Default is every 10 minutes.
 Config.ThreadRepeat = 10
