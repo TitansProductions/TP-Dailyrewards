@@ -2,8 +2,8 @@ Config              = {}
 
 Config.Locale       = "en"
 
--- Set it to "none" if you don't want to use a key to open the daily rewards.
-Config.UseKeyToOpen = "none"
+Config.UseKeyToOpen = false
+Config.KeyToOpen    = 0
 
 -- Checks if player received reward / not and day changed to update its data.
 -- Default is every 10 minutes.
