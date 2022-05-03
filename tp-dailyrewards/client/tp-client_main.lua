@@ -153,6 +153,24 @@ RegisterNUICallback('claimRewards', function (data)
 	TriggerServerEvent('tp-dailyrewards:claimReward', Weeks[ tostring(data.day) ], data.day)
 end)
 
+Citizen.CreateThread(function()
+    while true do
+		Wait(0)
+
+		if Config.UseKeyToOpen ~= "none" then
+			if not isDead then
+				if IsControlJustReleased(0, Config.UseKeyToOpen) and IsInputDisabled(0) then
+					TriggerEvent("tp-dailyrewards:openDailyRewards")
+				end
+			end
+		else
+			Citizen.Wait(60000 * 60)
+		end
+
+	end
+
+end)
+
 
 Citizen.CreateThread(function()
 	while true do
