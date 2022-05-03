@@ -40,6 +40,9 @@ Config.RewardPacks    = {
 
 -- For testing, you can do it manually from dailyrewards sql table, set day and received to 0
 
+-- Default types: [item, weapon, money, black_money, bank].
+-- If you want to give multiple items / money or anything in 1 daily reward, you can use Config.RewardPacks name,
+-- for example, than using default types, you would use as type the custom pack, "clips".
 Config.DailyRewards = {
     ['WEEK_1'] = {
         {
