@@ -24,6 +24,10 @@ $(function() {
 			document.getElementById("enable_dailyrewards").style.display="none";
 			document.getElementById("showloading").style.display="block";
 		}
+		
+		else if (item.action === 'refreshData'){
+			closeDailyRewards();
+		}
 
 		else if (item.action === 'mainData') {
 			dayRewardsCheck = item.daysStart;
