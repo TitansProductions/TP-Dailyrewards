@@ -28,9 +28,10 @@ Config.RewardPacks    = {
         },
     },
 
-    ['example2'] = {
+    ['weaponpack'] = {
         rewards = {
             ['1'] = {name = "WEAPON_PISTOL",  type = "weapon", amount = 0},
+            ['2'] = {name = "WEAPON_APPISTOL",  type = "weapon", amount = 0},
         },
     },
 }
