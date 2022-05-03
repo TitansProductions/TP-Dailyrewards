@@ -159,7 +159,7 @@ Citizen.CreateThread(function()
 
 		if Config.UseKeyToOpen ~= "none" then
 			if not isDead then
-				if IsControlJustReleased(0, Config.UseKeyToOpen) and IsInputDisabled(0) then
+				if IsControlJustReleased(0, Config.UseKeyToOpen) then
 					TriggerEvent("tp-dailyrewards:openDailyRewards")
 				end
 			end
