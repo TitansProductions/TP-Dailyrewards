@@ -76,9 +76,11 @@ function closeUI()
 end
 
 
-RegisterNetEvent("tp-dailyrewards:closeUI")
-AddEventHandler("tp-dailyrewards:closeUI", function()
-	EnableGui(false, uiType)
+RegisterNetEvent("tp-dailyrewards:refreshData")
+AddEventHandler("tp-dailyrewards:refreshData", function()
+	SendNUIMessage({
+		action = 'refreshData',
+	})	
 end)
 
 
