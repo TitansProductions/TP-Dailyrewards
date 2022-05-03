@@ -52,7 +52,7 @@ Config.DailyRewards = {
                 reward = 'CASH',
                 amount = 1,
                 title = 'MONEY REWARDS',
-                description = '- $50 CASH, $50 BLACK MONEY, $50 BANK ACCOUNT',
+                description = '- $50 CASH, $500 BLACK MONEY, $5000 BANK ACCOUNT',
                 image = 'img/items/coins_rewardbox.png'
             },
         },
