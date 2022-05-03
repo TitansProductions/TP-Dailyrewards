@@ -50,7 +50,7 @@ Citizen.CreateThread(function()
     
                         playerData[xPlayer.source] = {current_day = currentDay, day = playerData[xPlayer.source].day + 1, received = 0, received_hour = nil}
     
-                        TriggerClientEvent("tp-dailyrewards:closeUI", xPlayer.source)
+                        TriggerClientEvent("tp-dailyrewards:refreshData", xPlayer.source)
                     end 
                 end
                 
