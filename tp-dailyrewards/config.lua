@@ -20,7 +20,7 @@ Config.RewardPacks    = {
             ['3'] = {name = "disc_ammo_smg",     type = "item", amount = 5},
         },
     },
-    ['example1'] = {
+    ['moneyrewards'] = {
         rewards = {
             ['1'] = {name = "",  type = "money", amount = 50},
             ['2'] = {name = "",  type = "black_money", amount = 500},
@@ -42,17 +42,17 @@ Config.RewardPacks    = {
 
 -- Default types: [item, weapon, money, black_money, bank].
 -- If you want to give multiple items / money or anything in 1 daily reward, you can use Config.RewardPacks name,
--- for example, than using default types, you would use as type the custom pack, "clips".
+-- for example, than using default types, you would use as type the custom pack, "clips" or anything else that you've made.
 Config.DailyRewards = {
     ['WEEK_1'] = {
         {
             day = 1,
             dayReward = {
-                type = 'money',
+                type = 'moneyrewards',
                 reward = 'CASH',
-                amount = 50,
-                title = 'CASH',
-                description = '- $50 CASH',
+                amount = 1,
+                title = 'MONEY REWARDS',
+                description = '- $50 CASH, $50 BLACK MONEY, $50 BANK ACCOUNT',
                 image = 'img/items/coins_rewardbox.png'
             },
         },
